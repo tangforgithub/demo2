@@ -1,0 +1,50 @@
+.center{
+	width: 960px;
+	height: 891px;
+	margin: 0 auto;
+	margin-top: -5px;
+	position: relative;
+}
+.logo-caidan{
+	width: 162px;
+	height: 84px;
+	position: absolute;
+	top: 40px;
+	left: 50%;
+	transform: translate(-50%,0);
+}
+.titleImg:hover{
+	transform-origin: center;
+	-moz-transform-origin: center;
+	-ms-transform-origin: center;
+	-webkit-transform-origin: center;
+	transform: rotateY(360deg);
+	-moz-transform: rotateY(360deg);
+	-ms-transform: rotateY(360deg);
+	-webkit-transform: rotateY(360deg);
+	transition: all 2s;
+}
+.main{
+	width: 960px;
+	height: 640px;
+	background-image: url(../img/31（1）.png);
+	position: absolute;
+	bottom: 50px;
+}
+.main div{
+	width: 320px;
+	height: 320px;
+	float: left;
+}
+.main div img{
+	margin-top: 15px;
+	margin-left: 20px;
+}
+.main div p{
+	text-align: center;
+	font: bold 35.73px "microsoft yahei";
+}
+.main-p{
+	font: bold 23.82px "microsoft yahei";
+	text-align: center;
+}

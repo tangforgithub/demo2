@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        *{
+            margin: 0;padding: 0;
+        }
+        ul{
+            list-style: none;
+            background-color: blue;
+            position: relative;
+            height: 40px;
+        }
+
+        li{
+            float: left;
+            font-size: 20px;
+            height: 20px;
+            line-height: 20px;
+            padding: 10px;
+            color: white;
+            font-weight: bold;
+            position: relative;
+            z-index: 10;
+        }
+
+        div{
+            position: absolute;
+            height: 40px;
+            width: 0px;
+            left: 0;
+            background-color: red;
+            z-index: 5;
+
+        }
+
+        .now{
+
+            background-color: red;
+        }
+
+
+
+    </style>
+    <script>
+
+       window.onload = function(){
+
+            var oNav = document.getElementById("nav");
+           var arrLi = oNav.getElementsByTagName("li");
+           var oDiv = oNav.getElementsByTagName("div")[0];// 拿第一个
+           var oNow = oNav.getElementsByClassName("now")[0];
+           oDiv.style.left = oNow.offsetLeft+"px";
+           oDiv.style.width = oNow.offsetWidth+"px";
+            for(var i = 0; i<arrLi.length;i++){
+                arrLi[i].onmouseover = function(){
+//                    this.offsetLeft
+//                    this.offsetWidth
+//                    transition: all 0.5s;
+                    oDiv.style.transition = "all 0.3s"
+                    oDiv.style.left = this.offsetLeft+"px";
+                    oDiv.style.width = this.offsetWidth+"px";
+                }
+                arrLi[i].onmouseout = function(){
+                    oDiv.style.left = oNow.offsetLeft+"px";
+                    oDiv.style.width = oNow.offsetWidth+"px";
+
+                }
+
+            }
+
+
+       }
+
+
+
+    </script>
+</head>
+<body>
+<ul id="nav">
+    <li >新闻</li>
+    <li>财经</li>
+    <li >娱乐</li>
+    <li>体育</li>
+    <li>互联网</li>
+    <li>个性推荐</li>
+    <li class="now">白日依山尽</li>
+    <li>房产</li>
+    <li>汽车</li>
+    <li>更多</li>
+    <div></div>
+</ul>
+</body>
+</html>

@@ -1,0 +1,265 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.headerBox{
+	width: 100%;
+	height: 164px;
+	position: relative;
+}
+.header{
+	width: 984px;
+	height: 100px;
+	position: absolute;
+	bottom: 40px;
+	left: 50%;
+	transform: translate(-50%,0%);
+}
+.userbar{
+	width: 290px;
+	height: 19px;
+	position: absolute;
+	right: 0;
+	top: 6px;
+}
+.userbar ul li{
+	float: left;
+	font-size: 12px;
+	line-height: 19px;
+	margin-left:10px;
+	font-family: "微软雅黑";
+}
+.userbar ul li a{
+	color: #666;
+}
+#dengLi{
+	width: 40px;
+	height: 20px;
+	text-align: center;
+}
+#dengLi:hover{
+	width: 40px;
+	height: 20px;
+	background: blue;
+	color: white;
+	border-radius: 7px;
+}
+#dengLi a:hover{
+	color: white;
+}
+.userbar li a:hover{
+	color: deepskyblue;
+}
+#erweima{
+	width: 84px;
+	height: 84px;
+	position: absolute;
+	display: none;
+}
+#erweima img{
+	width: 84px;
+	height: 84px;
+}
+.logo{
+	width: 153px;
+	height: 84px;
+	position: absolute;
+	top: 10px;
+}
+.logo img{
+	width: 137px;
+	height: 46px;
+}
+.search{
+	width: 831px;
+	height: 84px;
+	position: absolute;
+	right: 0;
+}
+.tab{
+	width: 831px;
+	height: 18px;
+	position: absolute;
+}
+.tab ul li font{
+	font-weight: 700px;
+	color: #555;
+}
+.tab ul li{
+	float: left;
+	font-weight: 400;
+	margin-right: 21px;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	line-height: 18px;
+}
+.tab ul li a{
+	color: #555;
+}
+.tab ul li a:hover{
+	text-decoration: underline;
+}
+.searchBar{
+	width: 558px;
+	height: 34px;
+	position: absolute;
+	top: 23px;
+}
+.searchBar input{
+	width: 458px;
+	height: 32px;
+	background: white;
+	border: none;
+	float: left;
+	outline: none;
+	border: 1px solid black;
+}
+.searchBar button{
+	width: 98px;
+	height: 34px;
+	background: #fcfcfc;
+	float: right;
+	outline: none;
+	border-top: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+}
+.searchBar button{
+	font-size: 16px;
+}
+.input1{
+	position: absolute;
+	top: 65px;
+	left: 10px;
+}
+.input2{
+	position: absolute;
+	top: 65px;
+	left: 105px;
+}
+.p1{
+	position: absolute;
+	top: 64px;
+	left: 26px;
+	font-size: 12px;
+}
+.p2{
+	position: absolute;
+	top: 64px;
+	left: 122px;
+	font-size: 12px;
+}
+.tabHelp{
+	width: 148px;
+	height: 34px;
+	position: absolute;
+	top: 23px;
+	left: 575px;
+}
+.tabHelp ul li{
+	float: left;
+	font-size: 12px;
+	margin-right: 8px;
+	line-height: 34px;
+}
+.tabHelp ul li a{
+	color: #304e80;
+}
+.tabHelp ul li a:hover{
+	text-decoration: underline;
+}
+.search img{
+	position: absolute;
+	right: 0;
+	bottom: -15px;
+}
+.navMainBox{
+	width: 100%;
+	height: 40px;
+	background: #01204f;
+	position: absolute;
+	bottom: 0;
+}
+.navMain{
+	width: 984px;
+	height: 40px;
+	margin: 0 auto;
+}
+.navMain ul{
+	position: relative;
+}
+.navMain ul li{
+	float: left;
+	font-size: 14px;
+	margin-right: 2px;
+	padding: 0 10px;
+	font-weight: bold;
+	line-height: 40px;
+	z-index: 20;
+	position: relative;
+}
+.navMain ul li a{
+	color: white;
+}
+#moreLi :hover #png{
+	transform:rotate(180deg);  实现图片的翻转
+}	
+.mask{
+	position: absolute;
+	height: 40px;
+	width: 0;
+	left: 0;
+	background: red;
+	z-index: 10;
+}
+.now{
+	background: red;
+}
+.new img{
+	position: absolute;
+	top: -5px;
+	left: 30px;
+}
+#media{
+	width: 235px;
+	height: 200px;
+	background: red;
+	position: absolute;
+	left: -1px;
+	background: #01204f;
+	display: none;
+}
+#media ul li{
+	float: left;
+	width: 95px;
+	height: 40px;
+	font-size: 13px;
+	font-family: "微软雅黑";
+	color: white;
+}
+#media ul li:hover{
+	background-color: rgba(26,62,120,0.7);
+}
+#more{
+	width: 58px;
+	height: 120px;
+	background: #01204f;
+	position: absolute;
+	right: 0;
+	display: none;
+}
+#more ul li{
+	width: 58px;
+	height: 40px;
+	float: left;
+}
+#more ul li:hover{
+	width: 38px;
+	background-color: rgba(26,62,120,0.7);
+}

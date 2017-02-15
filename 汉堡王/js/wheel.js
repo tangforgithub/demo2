@@ -1,0 +1,29 @@
+$(function(){
+//wheel开始
+	$(".weibo").hover(function(){
+		$(".p-w").css({"color":""});
+		$(".p-w").css({"color":"#ed7801"})
+	},function(){
+		$(".p-w").css({"color":""});
+	})
+	$(".weixi1").hover(function(){
+		$(".p-2").css({"color":""});
+		$(".p-2").css({"color":"#ed7801"});
+	},function(){
+		$(".p-2").css({"color":""});
+	})
+	$(".quan").hover(function(){
+		$(".p-3").css({"color":""});
+		$(".p-3").css({"color":"#ed7801"});
+	},function(){
+		$(".p-3").css({"color":""});
+	})
+	
+	$(".rightNow").click(function(){
+		$(".deliversShowBox").fadeIn(500);
+	})
+	$(".close").click(function(){
+		$(".deliversShowBox").fadeOut(500);
+	})
+//wheel结束
+})

@@ -1,0 +1,9 @@
+$(function(){
+	$("#header").load('header.html');
+})
+$(function(){
+	$("#footer").load('footer.html');
+})
+$(document).ready(function(){
+	$('p.example').bumpyText();
+})

@@ -1,0 +1,116 @@
+.footerBox{
+	width: 100%;
+	background: #2d2d2d;
+}
+.footer{
+	width: 960px;
+	height: 335px;
+	margin: 0 auto;
+}
+.min-nav{
+	display: inline-block;
+	margin-top: 45px;
+	margin-left: 140px;
+}
+.min-nav a{
+	color: #fff;
+	font: bold 18px "黑体";
+	margin-right: 140px;
+}
+.min-fx{
+	width: 960px;
+	height: 68px;
+}
+.imgs{
+	width: 150px;
+	height: 68px;
+	margin: 0 auto;
+}
+.imgs img{
+	width: 35px;
+	height: 29px;
+	margin:35px 18px 0 18px ;
+}
+.choose{
+	width: 960px;
+	height: 54px;
+	text-align: center;
+}
+.choose-nav{
+	display: inline-block;
+	height: 960px;
+	height: 12px;
+	margin-top: 35px;
+}
+.choose-nav a{
+	color: #cecece;
+	font: normal 12px "黑体";
+	margin: 0 10px 0 5px;
+}
+.choose-nav a:hover{
+	color: rgb(239,120,0);
+}
+.choose-nav i{
+	font: normal 12px "黑体";
+	color: #cecece;
+}
+.put{
+	width: 960px;
+	height: 40px;
+}
+.put-main{
+	width: 690px;
+	height: 12px;
+	margin-left: 135px;
+	display: inline-block;
+	margin-top: 24px;
+}
+.put-main a{
+	color: #cecece;
+	font: normal 12px "黑体";
+}
+.put-main span{
+	color: #cecece;
+	font: normal 12px "黑体";
+}
+.return{
+	width: 960px;
+	height: 77px;
+	margin-top: 30px;
+}
+.return-main{
+	width: 440px;
+	height: 77px;
+	margin-left: 320px;
+	position: relative;
+}
+.imgs-1{
+	width: 314px;
+	height: 77px;
+	position: absolute;
+	left: 0;
+}
+.imgs-1 img{
+	width: 314px;
+	height: 77px;
+	position: absolute;
+}
+.imgs-1 p{
+	position: absolute;
+	left: 115px;
+	font: bold 18px/89px "microsoft yahei";
+	color: #fff;
+}
+.return-main span{
+	position: absolute;
+	left: 330px;
+	top: 35px;
+	color: #cecece;
+	font: normal 12px "黑体";
+}
+.go{
+	position: absolute;
+	right: 0;
+	top: 30px;
+	
+}

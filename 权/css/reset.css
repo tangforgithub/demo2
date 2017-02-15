@@ -1,0 +1,28 @@
+﻿/*重置样式*/
+* {
+    margin: 0;
+    padding: 0;
+}
+ul, li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color:black;
+}
+a:hover {
+    color: #31c2a4;
+}
+img {
+    border: none;
+    width:100%;
+}
+input,option {
+    border: 0;       /*没有边框*/     
+    outline: none;   /*没有边框点击的蓝色*/
+}
+html, body {
+    font-size: 12px;
+    color: #333;
+    font-family:'Microsoft YaHei';
+}

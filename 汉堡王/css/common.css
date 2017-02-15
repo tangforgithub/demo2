@@ -1,0 +1,19 @@
+*{
+	margin:0;
+	padding:0;
+}
+img{
+	border:none 0;
+}
+a{
+	text-decoration:none;
+	cursor:pointer;
+}
+ul li{
+	list-style:none;
+}
+body{
+	font-family: "Arial";
+	background:#fff;
+	color: #3e4659;
+}

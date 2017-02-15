@@ -1,0 +1,70 @@
+.participateBox{
+	width: 100%;
+	position: relative;
+}
+.bgimg2{
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%,0);
+}
+.participate{
+	width: 960px;
+	height: 2045px;
+	margin: 0 auto;
+}
+.blackImg{
+	margin-top: 80px;
+	padding-bottom: 40px;
+	transition: all 2s;
+}
+.blackImg:hover{
+	transform-origin: center;
+	-moz-transform-origin: center;
+	-ms-transform-origin: center;
+	-webkit-transform-origin: center;
+	transform: rotateY(360deg);
+	-moz-transform: rotateY(360deg);
+	-ms-transform: rotateY(360deg);
+	-webkit-transform: rotateY(360deg);
+}
+.participate-1{
+	width: 960px;
+	height: 212px;
+	position: relative;
+}
+.participate-1 p{
+	color: #414040;
+    font: bold 21px "microsoft yahei";
+    position: absolute;
+    left: 170px;
+}
+.participate-1 div{
+	width: 790px;
+	color: #2d2c2c;
+    font: normal 14px "microsoft yahei";
+    position: absolute;
+    left: 170px;
+    top: 40px;
+}
+.participate-1 img{
+	position: absolute;
+    bottom: 30px;
+}
+#participate-3-img{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.participate-4{
+	height: 235px;
+}
+.participate-5{
+	height: 260px;
+}
+.joinIn{
+	margin-top: 30px;
+	margin-left: 407px;
+	margin-bottom: 30px;
+}

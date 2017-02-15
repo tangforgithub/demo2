@@ -1,0 +1,55 @@
+	*{margin: 0;padding: 0;}
+	li{list-style: none;}
+	a{text-decoration: none;}
+	.header{width: 100%;height: 30px;}
+	.header-mian{width: 960px;height: 30px;margin: 0 auto;background: #f9f9f9;border-radius: 50px 50px 50px 50px;}
+	.header-mian-left{width: 330px;height: 30px;margin-left: 25px;float: left;}
+	.choice-city{font-size: 13px;font-family: "微软雅黑";line-height: 30px;float: left;color: #666666;}
+	.city{width: 45px;height: 20px;}
+	ul li input{width: 35px;height: 20px;border-radius: 5px 5px 5px 5px;font-size: 13px;}
+	.header-mian-right{width: 210px;height: 30px;float: right;margin-right: 25px;position: relative;}
+	.leaguebox{width: 100px;height: 30px;position: absolute;float: left;}
+	.league-logo{width: 16px;height: 12px;margin-top: 8px;float: left;}
+	.pic{background: url(../img/jinglingtu.png);display: block;}
+	.pic1{background-position-x: -0px;background-position-y: -63px;width: 16px;height: 12px;}
+	.character{width: 80px;height: 30px;font-size: 13px;font-family: "微软雅黑";float: right;line-height: 30px;border: none;text-align: center;}
+	.longstring{width: 10px;height: 20px;color: #d5d5d5;text-align: center;float: left;position: absolute;top: 5px;left: 100px;}
+	.shopbox{width: 95px;height: 30px;float: right;}
+	.shop-logo{width: 13px;height: 11px;float: left;margin-top: 8px;float: left;}
+	.pic2{background-position-x: -26px;background-position-y: -64px;width: 13px;height: 11px;}
+	.bodyer{width: 100%;height: 1000px;background: greenyellow;}
+	.bodyer-main{width: 960px;height: 1000px;background: pink;margin: 0 auto;}
+	.icons{width: 960px;height: 91px;}
+	.icon-1{width: 340px;height: 91px;float: left;}
+	.icon-1-box{width: 310px;height: 60px;margin-left: 20px;margin-top: 15px;}
+	.icon-1-png1{width: 310px;height: 60px;}
+	.icon-1-png1 ul li{width: 60px;height: 60px;float: left;}
+	.icon-1-png1 ul li font{font-family: "微软雅黑";font-size: 10px;margin-left: 15px;}
+	.pic3{background-position-x: -0px;background-position-y: -0px;width: 46px;height: 46px;margin-left: 5px;}
+	.pic4{background-position-x: -55px;background-position-y: -0px;width: 46px;height: 46px;margin-left: 5px;}
+	.pic5{background-position-x: -109px;background-position-y: -2px;width: 46px;height: 46px;margin-left: 5px;}
+	.pic6{background-position-x: -168px;background-position-y: -0px;width: 46px;height: 46px;margin-left: 5px;}
+	.pic7{background-position-x: -226px;background-position-y: -0px;width: 46px;height: 46px;margin-left: 5px;}
+	.icon-2{width: 280px;height: 91px;background: purple;float: left;}
+	.icon-2-box{width: 260px;height: 60px;background: red;margin-left: 10px;margin-top: 15px;}
+	.pic13{background-position-x: -91px;background-position-y: -62px;width: 60px;height: 60px;margin-left: 5px;}
+	.pic8{background-position-x: -86px;background-position-y: -61px;width: 69px;height: 64px;}
+	.icon-3{width: 340px;height: 91px;float: left;}
+	.icon-3-box{width: 310px;height: 60px;margin-left: 25px;margin-top: 15px;}
+	.icon-1-png2{width: 310px;height: 60px;}
+	.icon-1-png2 ul li{width: 60px;height: 60px;float: left;}
+	.icon-1-png2 ul li font{font-family: "微软雅黑";font-size: 8px;text-align: center;}
+	.pic8{background-position-x: -286px;background-position-y: -0px;width: 46px;height: 46px;margin-left: 5px;}
+	.pic9{background-position-x: -342px;background-position-y: -0px;width: 46px;height: 46px;margin-left: 5px;}
+	.pic10{background-position-x: -398px;background-position-y: -2px;width: 46px;height: 46px;margin-left: 5px;}
+	.pic11{background-position-x: -462px;background-position-y: -0px;width: 46px;height: 46px;margin-left: 5px;}
+	.pic12{background-position-x: -521px;background-position-y: -0px;width: 46px;height: 46px;margin-left: 5px;}
+	.nav{width: 958px;height: 114px;margin-top: 10px;border: 1px solid #dbdbdb;border-radius: 15px 15px 15px 15px;position: relative;}
+	.nav-son{width: 958px;height: 66px;background: #e21c01;margin-top: 16px;border-radius: 10px 10px 10px 10px;position: absolute;}
+	.pin{width: 161px;height: 114px;position: absolute;top: -16px;left: 10px;}
+	.pic14{background-position-x: -171px;background-position-y: -62px;width: 161px;height: 114px;margin-left: 5px;}
+	.nav-choice{width: 405px;height: 66px;background: black;position: absolute;left: 190px;top: 00px;}
+	.search-box{width: 404px;height: 22px;background: white;position: absolute;top: 20px;}
+	.nav-choices{width: 404px;height: 26px;position: absolute;top: -25px}
+	.nav-choices ul li{width: 76px;height: 26px;float: left;border: 1px solid #f8d0bf;margin-left: 2px;border-radius: 10px 10px 0 0;text-align: center;line-height: 27px;font-family: "微软雅黑";background: white;}
+	.input-srch{width: 404px;height: 22px;border-radius: 5px 5px 5px 5px;}

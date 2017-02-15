@@ -1,0 +1,180 @@
+.headerBox{
+	width: 100%;
+	height: 125px;
+	margin-top: -20px;
+	position: relative;
+}
+.header-1{
+	width: 100%;
+	height: 35px;
+}
+.header-1-main{
+	width: 960px;
+	height: 35px;
+	margin: 0 auto;
+}
+.top-1{
+	width: 715px;
+	height: 35px;
+	float: right;
+}
+.top-1 a:hover{
+	color: red;
+	font-weight: 900;
+}
+.top-1 a{
+	font: normal 14px/35px "微软雅黑";
+	margin-right: 40px;
+}
+.header-2{
+	width: 100%;
+	height: 90px;
+	background-image: url(../img/navbg.png);
+	background-size: cover;
+}
+.header-2-main{
+	width: 960px;
+	height: 90px;
+	margin: 0 auto;
+	position: relative;
+}
+.logo{
+	display: inline-block;
+	width: 202px;
+	height: 66px;
+	margin: 15px 0 0 0;
+	left: 0;
+}
+.nav-food{
+	width: 67px;
+	height: 50px;
+	position: absolute;
+	top: 20px;
+	left: 245px;
+	background: url(../img/nav1f.png);
+}
+.food:hover{
+	background-image: url(../img/nav1.png);
+}
+.nav-offers{
+	width: 69px;
+	left: 373px;
+	background: url(../img/nav2f.png);
+}
+.nav-offers:hover{
+	background-image: url(../img/nav2.png);
+}
+.nav-bk{
+	width: 91px;
+	height: 51px;
+	background: url(../img/nav3f.png);
+	left: 501px;
+}
+.nav-bk:hover{
+	background-image: url(../img/nav3.png);
+}
+.nav-delivers{
+	width: 102px;
+	height: 50px;
+	background: url(../img/nav4f.png);
+	left: 651px;
+}
+.nav-delivers:hover{
+	background-image: url(../img/nav4.png);
+}
+.wx{
+	width: 156px;
+	height: 43px;
+	position: absolute;
+	top: 35px;
+	right: 60px;
+	background: url(../img/wx.png);
+}
+.deliversShowBox{
+	margin-top: -124px;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background-color:rgba(255,255,255,0.7);
+	z-index: 888;
+	display: none;
+}
+.deliversShow{
+	width: 890px;
+	height: 410px;
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%,0);
+	border: 1px solid gray;
+	box-shadow: 4px 4px 4px gray;
+	background: white;
+	z-index: 999;
+}
+.close img{
+	margin-top: 40px;
+	margin-left: 820px;
+	display: inline-block;
+}
+.top{
+	width: 860px;
+	height: 80px;
+	margin: 0 auto;
+	margin-top: 80px;
+	border-bottom: 1px solid gray;
+}
+.topLogo{
+	width: 80px;
+	height: 65px;
+	margin: 0 auto;
+}
+.bottom{
+	width: 860px;
+	height: 80px;
+	margin: 0 auto;
+}
+.bottom p{
+	text-align: center;
+	font: 18px/36px "microsoft yahei";
+    color: #000;
+    margin: 20px 0px 20px 0px;
+}
+.weixi{
+	width: 38px;
+	height: 30px;
+	float: right;
+	margin-right: 5px;
+}
+.wxShowBox{
+	margin-top: -124px;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background-color:rgba(73,72,70,0.9);
+	z-index: 888;
+	display: none;
+}
+.wxShow{
+	width: 290px;
+	height: 340px;
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%,0);
+}
+.wxTop{
+	width: 290px;
+	height: 61px;
+	color: #fff;
+    font: normal 16px/28px "microsoft yahei";
+    text-align: center;
+    padding-bottom: 5px;
+    letter-spacing: 2px;
+}
+.wxTop p{
+	font-size: 20px;
+    font-weight: bold;
+}
+.wxShow img{
+	margin-left: 5px;
+}

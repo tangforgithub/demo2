@@ -1,0 +1,9 @@
+#page,#footer_inner{margin:0 auto;width:960px;}
+#container{margin:0 auto;}
+#container p{padding:10px 0;}
+/*-核心代码-*/
+/* demo style */
+.bumpy-char {
+    line-height: 3.4em;
+    position: relative;
+}

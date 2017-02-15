@@ -1,0 +1,113 @@
+/*wheel开始*/
+.wheelBox{
+	width: 100%;
+	background-image: url(../img/25.jpg);
+	margin-top: -5px;
+}
+.wheel{
+	width: 780px;
+	height: 450px;
+	margin: 0 auto;
+	position: relative;
+}
+.wheel-left{
+	width: 292px;
+	height: 450px;
+	position: absolute;
+	left: 0;
+}
+.delivers{
+	position: absolute;
+	top: 70px;
+	left: 70px;
+}
+.rightNow{
+	position: absolute;
+	top: 260px;
+	left: 45px;
+}
+.rightNowImg:hover{
+	transform-origin: center;
+	-moz-transform-origin: center;
+	-ms-transform-origin: center;
+	-webkit-transform-origin: center;
+	transform: rotateY(360deg);
+	-moz-transform: rotateY(360deg);
+	-ms-transform: rotateY(360deg);
+	-webkit-transform: rotateY(360deg);
+	transition: all 2s;
+}
+.rightNowFont{
+	position: absolute;
+	top: 0px;
+	left: 58px;
+	color: #fff;
+    font: bold 18px/51px "microsoft yahei";
+}
+.p1{
+	width: 292px;
+	height: 40px;
+	position: absolute;
+	bottom: 50px;
+	text-align: center;
+	color: #fff;
+    font: normal 14px "microsoft yahei";
+}
+.p2{
+	bottom: 30px;
+}
+.fenge{
+	position: absolute;
+	left: 370px;
+	top: 48px;
+}
+.wheel-right{
+	width: 335px;
+	height: 450px;
+	position: absolute;
+	right: 0;
+}
+.diadem{
+	position: absolute;
+	top: 55px;
+	right: 0px;
+}
+.weibo{
+	position: absolute;
+	top: 260px;
+	right: 240px;
+}
+.p-1{
+	position: absolute;
+	top: 330px;
+	right: 240px;
+	color: #fff;
+    font: bold 18px "microsoft yahei";
+}
+.p-1:hover{
+	color: #ed7801;
+}
+.weixi1{
+	position: absolute;
+	top: 260px;
+	right: 135px;
+}
+.p-2{
+	right: 120px;
+}
+.quan{
+	width: 89px;
+	height: 70px;
+	position: absolute;
+	top: 248px;
+	right: 0px;
+}
+.p-3{
+	right: 0px;
+}
+.p3{
+	bottom: 30px;
+	width: 335px;
+	font: normal 12px "microsoft yahei";
+}
+/*wheel结束*/

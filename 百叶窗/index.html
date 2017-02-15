@@ -1,0 +1,58 @@
+1 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+ 2 <html xmlns="http://www.w3.org/1999/xhtml">
+ 3 <head>
+ 4 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ 5 <title>百叶窗效果</title>
+ 6 <style>
+ 7     ul{margin:0; padding:0; text-align:left; width:400px; list-style:none; border:1px solid black;}
+ 8     ul li{ width:200px; height:50px; background:#0CF;margin:2px 0;}
+ 9 	</style>
+ 	<script>
+ 2     window.onload = function(){
+ 3         var btn = document.getElementById("btn1");
+ 4         var aLi = document.getElementsByTagName("li");
+ 5         var timer = null;
+ 6         var iNum = 0;
+ 7         btn.onclick = function(){
+ 8             setTimeout(function(){
+ 9                 timer = setInterval(function(){
+10                     if(iNum == aLi.length){
+11                         clearInterval(timer);
+12                         return false;
+13                     }
+14                     startMove(aLi[iNum]);
+15                     iNum++;
+16                 },440);
+17             },100);
+18         }
+19         
+20         function startMove(obj){
+21             var _timer = null;
+22             var intance = 0;
+23             _timer = setInterval(function(){
+24                 
+25                 if(intance == 200)
+26                 {
+27                     clearInterval(_timer);    
+28                 }
+29                 obj.style.marginLeft = intance+"px";
+30                 intance += 10;
+31                 },20);
+32         }
+33     }
+	</script>
+10 </head>
+11 
+12 <body>
+13 <ul>
+14     <li></li>
+15     <li></li>
+16     <li></li>
+17     <li></li>
+18     <li></li>
+19     <li></li>
+20 </ul>
+21 <input id="btn1" type="button" value="start" />
+	
+22 </body>
+23 </html>

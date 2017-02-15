@@ -1,0 +1,125 @@
+.contactBgBox{
+	width: 100%;
+	height: 700px;
+	background-image: url(../img/7.jpg);
+	position: relative;
+}
+.contactBg{
+	width: 780px;
+	height: 465px;
+	background-color:rgba(255,255,255,0.5) ;
+	position: absolute;
+	top: 90px;
+	left: 50%;
+	transform: translate(-50%,0);
+	border-radius: 20px;
+}
+.contactBgMain{
+	width: 740px;
+	height: 435px;
+	margin-top: 30px;
+	margin-left: 40px;
+	position: relative;
+}
+.name{
+	font: bold 13px "microsoft yahei";
+    color: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.name span{
+	display: inline-block;
+	width: 120px;
+	height: 22px;
+}
+.name input{
+	width: 130px;
+	height: 18px;
+	outline: none;
+	margin-left: 45px;
+}
+.email{
+	left: 400px;
+}
+.mobile{
+	top: 40px;
+	left: 0px;
+}
+.city{
+	top: 40px;
+	left: 400px;
+}
+.comments{
+	top: 80px;
+}
+.comments select{
+	width: 75px;
+	height: 19px;
+	margin-left: 42px;
+	font-size: 12px;
+    font-family: Arial;
+}
+.textBox{
+	width: 696px;
+	height: 150px;
+	position: absolute;
+	top: 120px;
+}
+.textBox input{
+	width: 696px;
+	height: 130px;
+	outline: none;
+}
+.textBox p{
+	text-align: right;
+	font: normal 12px "microsoft yahei";
+}
+.yzm{
+	width: 700px;
+	height: 52px;
+	position: absolute;
+	top: 294px;
+}
+.yzm span{
+	font: bold 13px "microsoft yahei";
+    color: #000;
+	display: inline-block;
+	width: 120px;
+	height: 22px;
+}
+.yzm input{
+	width: 131px;
+	height: 34px;
+	outline: none;
+	margin-left: 45px;
+}
+.yzm img{
+	margin-left: 80px;
+}
+.yzm a{
+	font: bold 13px "microsoft yahei";
+	color: blue;
+}
+.yzm a:hover{
+	color: black;
+}
+.btns{
+	width: 740px;
+	height: 51px;
+	position: absolute;
+	bottom: 30px;
+}
+.sub{
+	margin-left: 180px;
+}
+.res{
+	margin-left: 30px;
+}
+.font1{
+	position: absolute;
+	bottom: 0;
+	font: normal 14px "microsoft yahei";
+    color: #000;
+    margin-left: 80px;
+}

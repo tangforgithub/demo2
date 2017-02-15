@@ -1,0 +1,168 @@
+.about-MainBox{
+	width: 100%;
+	height: 2230px;
+	position: relative;
+}
+.bg{
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	left: 50%;
+	transform: translate(-50%,0);
+}
+.about-Main{
+	width: 970px;
+	height: 2025px;
+	margin: 0 auto;
+}
+.about-Main-content{
+	width: 970px;
+	height: 1950px;
+	margin-top: 75px;
+	display: inline-block;
+}
+.titleP{
+	width: 970px;
+	height: 59px;
+	text-align: right;
+    color: #333333;
+    font: bold 45px "microsoft yahei";
+    line-height: 118px;
+}
+.imgP1{
+	width: 970px;
+	height: 175px;
+}
+.imgP1 img{
+	float: left;
+}
+.imgP1 span{
+	width: 670px;
+	height: 140px;
+	float: right;
+	font: normal 14px /24px "microsoft yahei";
+	margin-top: 30px;
+	display: inline-block;
+}
+.imgP2{
+	width: 970px;
+	height: 235px;
+}
+.imgP2 p{
+	width: 559px;
+	height: 59px;
+	color: #333333;
+    font: bold 45px "microsoft yahei";
+    margin-top: 30px;
+    display: inline-block;
+    float: left;
+}
+.imgP2 div{
+	width: 540px;
+	height: 162px;
+	font: normal 14px /24px "microsoft yahei";
+	margin-top: 30px;
+	float: left;
+}
+.imgP3{
+	width: 970px;
+	height: 175px;
+	position: relative;
+}
+.imgP3 img{
+	position: absolute;
+	left: 0;
+}
+.imgP3 p{
+	color: #333333;
+    font: bold 45px "microsoft yahei";
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+.imgP3 div{
+	width: 670px;
+	height: 100px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	font: normal 14px /24px "microsoft yahei";
+}
+.imgP4{
+	width: 970px;
+	height: 281px;
+	margin-top: 40px;
+	position: relative;
+}
+.imgP4 p{
+	color: #333333;
+    font: bold 45px "microsoft yahei";
+}
+.imgP4 img{
+	margin-top: 20px;
+}
+.imgP4-1{
+	width: 125px;
+	position: absolute;
+	left: 0;
+}
+.imgP4-1 i{
+	color: #333333;
+    font: bold 23px "microsoft yahei";
+}
+.imgP4-1 i:hover{
+	color: rgb(239,120,0);
+}
+.imgP4-1 p{
+	color: #333333;
+    font: normal 12px "microsoft yahei";
+}
+.imgP4-1 p:hover{
+	color: red;
+}
+.imgP4-2{
+	left: 165px;
+}
+.imgP4-3{
+	left: 330px;
+}
+.imgP4-4{
+	left: 498px;
+}
+.imgP4-5{
+	left: 670px;
+}
+.imgP4-6{
+	left: 845px;
+}
+.imgP5{
+	width: 970px;
+	height: 270px;
+	position: relative;
+}
+.imgP5 p{
+	width: 700px;
+	height: 50px;
+	color: #333333;
+    font: bold 45px "microsoft yahei";
+}
+.imgP5 span{
+	width: 540px;
+	display: block;
+	font: normal 14px /24px "microsoft yahei";
+}
+.imgP5 img{
+	position: absolute;
+	right: 0;
+	top: 0px;
+}
+.content{
+	margin:0 auto;
+}
+.content p{
+	padding:10px 0;
+}
+.bumpy-char {
+    /*line-height: 3.4em;*/
+    position: relative;
+}

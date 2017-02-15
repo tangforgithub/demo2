@@ -1,0 +1,727 @@
+﻿em {
+    background: url(../images/icon_sprite.png) no-repeat;
+    display:inline-block;
+}
+.nav {
+    width: 1200px;
+    height: 90px;
+    border-bottom: 1px solid #f2f2f2;
+    margin:0 auto;
+    position:relative;
+}
+.nav .logo {
+    float: left;
+    height:90px;
+    width:225px;
+    margin-top:18px;
+}
+.nav .logo img {
+    height: 55px;
+    width: 200px;
+}
+.nav .nac_left {
+    float: left;
+    height:90px;
+}
+.nav .nav_left li {
+    float: left;
+    height: 90px;
+    line-height: 90px;
+    text-align: center;
+    font-size:16px;
+    padding-left:20px;
+    padding-right:20px;
+}
+.nav .search {
+    border: 1px solid #c9c9c9;
+    border-radius:5px;
+    width:250px;
+    height:38px;
+    float:left;
+    margin-top:25px;
+    margin-left:8px;
+    vertical-align:middle;
+}
+.nav .search input {
+    height: 36px;
+    padding-left: 6px;
+    width: 205px;
+}
+.nav .search .search_ {
+    height: 18px;
+    width: 18px;
+    float:right;
+    margin-top: 9px;
+    margin-right: 10px;
+}
+.nav .search .search_search {
+    height: 18px;
+    width: 18px;
+    background-position: 0 -39px;
+}
+.nav .search .search_search:hover {
+    background-position: 0 -59px;
+}
+.nav .register {
+    float: left;
+    height: 90px;
+    line-height: 90px;
+    text-align: center;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.nav .green {
+    float: left;
+    height: 40px;
+    width:115px;
+    line-height: 40px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    border:1px solid #31c27c;
+    background:#31c27c;
+    font-size:14px;
+    margin-top:24px;
+    border-radius:3px;
+    color:white;
+}
+.nav .green:hover {
+    background: #2caf6f;
+}
+.nav .pay {
+    float: left;
+    height: 40px;
+    width:90px;
+    line-height: 40px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size:14px;
+    border:1px solid #c9c9c9;
+    margin-top:24px;
+    margin-left:15px;
+    border-radius:3px;
+}
+.nav .pay:hover {
+    background: #ededed;
+}
+
+
+.nav #drow {
+    position: absolute;
+    top: 64px;
+    right: 337px;
+    height: 237px;
+    width: 250px;
+    border: 1px solid #c9c9c9;
+    z-index:3;
+    background:white;
+    display:none;
+}
+.nav #drow li {
+    height: 38px;
+    line-height:38px;
+}
+.nav #drow li:hover{
+    background: #31c27c;
+    color:white;
+}
+.nav #drow li .b1 {
+    color: red;
+    margin-left:10px;
+}
+.nav #drow li:hover .b1 {
+    color: white;
+}
+.nav #drow li .b2 {
+    font-size:14px;
+    margin-left:10px;
+}
+.nav #drow li .b3 {
+    font-size:14px;
+    display:inline-block;
+    float:right;
+    margin-right:10px;
+    color:#999999;
+}
+.nav #drow li:hover .b3 {
+    color: white;
+}
+.nav #drow div {
+    font-size: 15px;
+    color: #999999;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.nav #drow .b4 {
+    background-position: -99px 4px;
+    height:23px;
+    width:18px;
+    float:right;
+    margin-right:10px;
+}
+.nav #drow .b4:hover {
+    background-position: -19px -56px;
+}
+
+
+
+
+.nav #golv .golv {
+    background: #31c27c;
+    color:white;
+}
+.nav_dro {
+    height: 50px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.nav_dro ul {
+    margin: 0 auto;
+    height: 50px;
+    width: 687px;
+}
+.nav_dro li {
+    height: 50px;
+    padding-right: 55px;
+    font-size: 14px;
+    float:left;
+    line-height:50px;
+    text-align:center;
+}
+.car{
+    width:100%;
+    overflow:hidden;
+    margin:0 auto;
+    position:relative;
+}
+.car img {
+    width:1958px;
+    height:735px;
+}
+.car .carousel {
+    position: absolute;
+    height:600px;
+    width:1200px;
+    top: 50%;
+    left: 50%;
+    margin-top: -300px;
+    margin-left: -600px;
+}
+/*.car .carousel .carousel_nav ul li:hover {
+    color: white;
+}*/
+.car .carousel .carousel_title {
+    background: url(../images/index_tit.png) no-repeat 0 0;
+    height:50px;
+    width:196px;
+    margin:0 auto;
+}
+.car .carousel .carousel_nav #title1 {
+    color: white;
+}
+.car .carousel .carousel_nav ul {
+    margin: 40px auto 20px auto;
+    height: 20px;
+    width: 450px;
+}
+.car .carousel .carousel_nav li {
+    float: left;
+    margin-right: 71px;
+    font-size:16px;
+    color:rgb(150,150,150);
+}
+.car .carousel .carousel_nav li:hover {
+    color: white;
+}
+.car .carousel .carousel_nav .a1 {
+    margin-right: 0;
+}
+
+
+
+.car .carousel .teality1 {
+    position: absolute;
+    left: 0;
+    top: 145px;
+    /*display:none;*/
+}
+.car .carousel .teality2 {
+    position: absolute;
+    left: 0;
+    top: 145px;
+    display:none;
+}
+.car .carousel .teality3 {
+    position: absolute;
+    left: 0;
+    top: 145px;
+    display:none;
+}
+.car .carousel .teality4 {
+    position: absolute;
+    left: 0;
+    top: 145px;
+    display:none;
+}
+.car .carousel .teality5 {
+    position: absolute;
+    left: 0;
+    top: 145px;
+    display:none;
+}
+
+.bibala {
+    display: block;
+    color: white;
+}
+
+
+
+
+.car .carousel  .bannerall {
+    height: 415px;
+    width: 1200px;
+    position:relative;
+    overflow:hidden;
+    margin:0 auto;
+}
+.car .carousel  .banner {
+    height: 415px;
+    width: 3600px;
+    position:absolute;
+    left:0;
+    top:0;
+    transition:left 1s ease-out;
+}
+
+.car .carousel .bannerall .banner .block {
+    height: 415px;
+    width: 1200px;   
+    float: left;
+}
+.car .carousel .bannerall .banner .block .kuai {
+    height: 416px;
+    width: 300px;
+    float:left;
+}
+.car .carousel .bannerall .banner .block .kuai .zi {
+    background:rgba(0, 0, 0, 0.7);
+    height:116px;
+    width:300px;
+    overflow:hidden;
+}
+.car .carousel .bannerall .banner .block .kuai .zi:hover {
+    background: #31c27c;
+}
+.car .carousel .bannerall .banner .block .kuai .zi .zii {
+    font-size: 16px;
+    text-align:center;
+    color:white;
+    margin-top:20px;
+}
+.car .carousel .bannerall .banner .block .kuai .zi .ziii {
+    font-size: 16px;
+    text-align:center;
+    color:#bebebe;
+    margin-top:10px;
+}
+.car .carousel .bannerall .banner .block .kuai .tu img {
+    height:300px;
+    width:300px;
+    transition:all 1s ease-out;
+}
+.car .carousel .bannerall .banner .block .kuai .tu {
+    height: 300px;
+    width: 300px;
+    overflow:hidden;
+    transition:all 1s ease-out;
+}
+.car .carousel .bannerall .banner .block .kuai:hover .zi{
+    background: #31c27c;
+}
+.car .carousel .bannerall .banner .block .kuai .tu:hover img {
+    transform: scale(1.1);
+}
+.car .carousel .bannerall ul {
+    list-style: none;
+    position:absolute;
+    bottom:3px;
+    left:50%;
+    margin-left:-40px;
+}
+.car .carousel .bannerall li {
+    float: left;
+    height:2px;
+    width:20px;
+    margin-right:10px;
+    background:#808080;
+    cursor:pointer;
+}
+.car .carousel .bannerall  span {
+    position: absolute;
+    height: 48px;
+    width: 48px;
+    line-height: 60px;
+    text-align: center;
+    top:50%;
+    margin-top: -30px;
+}
+.car .carousel .bannerall #next {
+    right: 0;
+}
+.car .carousel .bannerall #Span2 {
+    right: 0;
+}
+.car .carousel .bannerall #Span4 {
+    right: 0;
+}
+.car .carousel .bannerall #Span6 {
+    right: 0;
+}
+.car .carousel .bannerall #Span8 {
+    right: 0;
+}
+.car .carousel .bannerall .now {
+    background: white;
+}
+.car .carousel .bannerall #prev .left {
+    background-position: 0 -122px;
+    height: 48px;
+    width: 48px;
+    transform:rotate(-90deg);
+    transform-origin:center center;
+}
+.car .carousel .bannerall #Span7 .left {
+    background-position: 0 -122px;
+    height: 48px;
+    width: 48px;
+    transform:rotate(-90deg);
+    transform-origin:center center;
+}
+.car .carousel .bannerall #Span1 .left {
+    background-position: 0 -122px;
+    height: 48px;
+    width: 48px;
+    transform:rotate(-90deg);
+    transform-origin:center center;
+}
+.car .carousel .bannerall #Span3 .left {
+    background-position: 0 -122px;
+    height: 48px;
+    width: 48px;
+    transform:rotate(-90deg);
+    transform-origin:center center;
+}
+.car .carousel .bannerall #Span5 .left {
+    background-position: 0 -122px;
+    height: 48px;
+    width: 48px;
+    transform:rotate(-90deg);
+    transform-origin:center center;
+}
+.car .carousel .bannerall #next .right {
+    background-position: 0 -122px;
+    height: 48px;
+    width: 48px;
+    transform:rotate(90deg);
+    transform-origin:center center;
+}
+.car .carousel .bannerall #Span2 .right {
+    background-position: 0 -122px;
+    height: 48px;
+    width: 48px;
+    transform:rotate(90deg);
+    transform-origin:center center;
+}
+.car .carousel .bannerall #Span4 .right {
+    background-position: 0 -122px;
+    height: 48px;
+    width: 48px;
+    transform:rotate(90deg);
+    transform-origin:center center;
+}
+.car .carousel .bannerall #Span6 .right {
+    background-position: 0 -122px;
+    height: 48px;
+    width: 48px;
+    transform:rotate(90deg);
+    transform-origin:center center;
+}
+.car .carousel .bannerall #Span8 .right {
+    background-position: 0 -122px;
+    height: 48px;
+    width: 48px;
+    transform:rotate(90deg);
+    transform-origin:center center;
+}
+.car .carousel .bannerall #prev .left:hover {
+    background-position: -50px -122px;
+}
+.car .carousel .bannerall #Span1 .left:hover {
+    background-position: -50px -122px;
+}
+.car .carousel .bannerall #Span3 .left:hover {
+    background-position: -50px -122px;
+}
+.car .carousel .bannerall #Span5 .left:hover {
+    background-position: -50px -122px;
+}
+.car .carousel .bannerall #Span7 .left:hover {
+    background-position: -50px -122px;
+}
+.car .carousel .bannerall #next .right:hover {
+    background-position: -50px -122px;
+}
+.car .carousel .bannerall #Span2 .right:hover {
+    background-position: -50px -122px;
+}
+.car .carousel .bannerall #Span4 .right:hover {
+    background-position: -50px -122px;
+}
+.car .carousel .bannerall #Span6 .right:hover {
+    background-position: -50px -122px;
+}
+.car .carousel .bannerall #Span8 .right:hover {
+    background-position: -50px -122px;
+}
+
+
+
+.main3 {
+    height: 550px;
+    width: 1200px;
+    margin:0 auto;
+    position:relative;
+}
+.main3 .main3-title {
+    background: url(../images/index_tit.png) no-repeat 0 -230px;
+    height: 61px;
+    width: 195px;
+    margin: 50px auto;
+}
+.main3 .main3-lunbo {
+    height: 330px;
+    width: 1200px;
+    overflow:hidden;
+    position:relative;
+}
+.main3 .main3-lunbo .main33 {
+    height: 270px;
+    width: 5250px;
+    position:absolute;
+    left:0;
+    transition:left 0.5s ease-out;
+}
+.main33 img {
+    float: left;
+    height:300px;
+    width:750px;
+    overflow:hidden;
+    transition:all 0.5s ease-out;
+}
+.main3-lunbo ul {
+    height: 10px;
+    width: 300px;
+    margin:40px auto 0 auto;
+    position: absolute;
+    bottom: 1px;
+    left: 455px;
+    z-index: 5;
+}
+.main3-lunbo ul li {
+    float: left;
+    width: 20px;
+    height: 10px;
+    margin-right:20px;
+    background: red;
+}
+.main3-lunbo span {
+    background: url(../images/icon_sprite.png) no-repeat;
+    height: 48px;
+    width: 48px;   
+    transform-origin: center center;
+    display: inline-block;
+    background-position: 0 -122px;
+    position:absolute;
+    top:150px;
+    margin-top:-24px;
+}
+.main3-lunbo span.left {
+    transform: rotate(-90deg);
+    left:0;
+}
+.main3-lunbo span.right {
+    transform: rotate(90deg);
+    right:0;
+}
+.main3-lunbo span.left:hover {
+    background-position: -50px -122px;
+}
+.main3-lunbo span.right:hover {
+    background-position: -50px -122px;
+}
+.main33 .first {
+    transform: scale(0.8);
+    margin-left:-75px;
+    margin-right:-75px;
+}
+.main33 .secend {
+    transform: scale(1);
+    position:absolute;
+    top:0;
+    
+    z-index:3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*底部*/
+
+
+.bbtom {
+    height: 470px;
+    width: 100%;
+    background:#333333;
+    margin-top:-5px;
+    color:#999999;
+}
+.bottom {
+    height: 470px;
+    width: 1200px;
+    overflow:hidden;
+    margin:0 auto;
+}
+.bottom .b-top {
+    height: 200px;
+    margin-top: 80px;
+}
+.bottom .b-top .a1 {
+    width: 350px;
+    height: 200px;
+    float:left;
+    margin-right:100px;
+}
+.bottom .b-top .a1 li {
+    float: left;
+    height:65px;
+    text-align:center;
+    margin-right:30px;
+    margin-top:50px;
+}
+.bottom .b-top .a1 div {
+    font-size: 15px;
+}
+.bottom .b-top .a1 .b1 {
+    background: url(../images/footer.png) 14px 0 no-repeat;
+    height:48px;
+    width:70px;
+    padding-top:50px;
+    box-sizing:border-box;
+}
+.bottom .b-top .a1 .b2 {
+    background: url(../images/footer.png) -92px 0 no-repeat;
+    height:48px;
+    width:48px;
+    padding-top:50px;
+    box-sizing:border-box;
+}
+.bottom .b-top .a1 .b3 {
+    background: url(../images/footer.png) -171px 0 no-repeat;
+    height:48px;
+    width:70px;
+    padding-top:50px;
+    box-sizing:border-box;
+}
+.bottom .b-top .a1 .b4 {
+    background: url(../images/footer.png) -267px 0 no-repeat;
+    height:48px;
+    width:60px;
+    padding-top:50px;
+    box-sizing:border-box;
+}
+.bottom .b-top .a1 .b5 {
+    margin-right: 0;
+}
+.bottom .b-top .a1 .b1:hover {
+    background-position: 14px -49px;
+    color:#31c27c;
+}
+.bottom .b-top .a1 .b2:hover {
+    background-position:-92px -49px;
+    color:#31c27c;
+}
+.bottom .b-top .a1 .b3:hover {
+    background-position:-171px -49px;
+    color:#31c27c;
+}
+.bottom .b-top .a1 .b4:hover {
+    background-position:-267px -49px;
+    color:#31c27c;
+}
+.bottom .b-top .a2 {
+    width: 350px;
+    height: 200px;
+    float:left;
+}
+.bottom .b-top .a2 li {
+    float: left;
+    height:65px;
+    text-align:center;
+    margin-right:30px;
+    margin-top:50px;
+}
+.bottom .b-top .a2 div {
+    font-size: 15px;
+}
+.bottom .b-top .a2 .b1 {
+    background: url(../images/footer.png) -355px 0 no-repeat;
+    height:48px;
+    width:70px;
+    padding-top:50px;
+    box-sizing:border-box;
+}
+.bottom .b-top .a2 .b2 {
+    background: url(../images/footer.png) -445px 0 no-repeat;
+    height:48px;
+    width:75px;
+    padding-top:50px;
+    box-sizing:border-box;
+}
+.bottom .b-top .a2 .b3 {
+    background: url(../images/footer.png) -543px 0 no-repeat;
+    height:48px;
+    width:70px;
+    padding-top:50px;
+    box-sizing:border-box;
+}
+.bottom .b-top .a2 .b1:hover {
+    background-position: -355px -49px;
+    color:#31c27c;
+}
+.bottom .b-top .a2 .b2:hover {
+    background-position:-445px -49px;
+    color:#31c27c;
+}
+.bottom .b-top .a2 .b3:hover {
+    background-position:-543px -49px;
+    color:#31c27c;
+}

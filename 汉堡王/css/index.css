@@ -1,0 +1,414 @@
+.bannerBox{
+	width: 100%;
+	height: 450px;
+	position: relative;
+}
+.banner{
+	width: 100%;
+	height: 450px;
+	position: absolute;
+	top: -5px;
+}
+.imgBox{
+	width: 100%;
+	height: 450px;
+}
+.imgBox img{
+	width: 100%;
+	height: 450px;
+	position: absolute;
+}
+.left{
+	width: 44px;
+	height: 44px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin: -22px 0 0 -510px;
+}
+.right{
+	width: 44px;
+	height: 44px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin: -22px 0 0 510px;
+}
+.ul1{
+	width: 160px;
+	height: 12px;
+	position: absolute;
+	left: 50%;
+	bottom: 12px;
+	transform: translate(-50%,0);
+}
+.ul1 li{
+	width: 12px;
+	height: 12px;
+	border-radius: 12px;
+	background: white;
+	float: left;
+	margin-left: 10px;
+}
+.lis.active{
+	background-color:rgb(237,122,3) ;
+}
+/*wheel开始*/
+
+/*wheel结束*/
+/*map开始*/
+.mapBox{
+	width: 100%;
+}
+.map{
+	width: 100%;
+	height: 497px;
+	background-image: url(../img/30.jpg);
+	position: relative;
+}
+.bgimg{
+	width: 715px;
+	height: 194px;
+	background-image: url(../img/29.png);
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+.zuobiao{
+	width: 51px;
+	height: 65px;
+	background-image: url(../img/18.png);
+	position: absolute;
+	left: 50%;
+    margin-left: -25px;
+    top: -50px;
+}
+.find{
+	width: 184px;
+	height: 61px;
+	background-image: url(../img/31.png);
+	position: absolute;
+	top: 30px;
+	left: 50%;
+    margin-left: -92px;
+}
+.inputBox{
+	width: 374px;
+	height: 44px;
+	background: #ef7800;
+	position: absolute;
+	bottom: 30px;
+	left: 50%;
+	margin-left: -187px;
+}
+.chooseCity{
+	width: 100px;
+	height: 40px;
+	background-image: url(../img/btn_map_bg.png);
+	margin-top: 2px;
+	margin-left: 1px;
+	text-align: center;
+	line-height: 40px;
+	font: normal 16px/40px "microsoft yahei";
+	color: #fff;
+	float: left;
+}
+.input{
+	width: 222px;
+	height: 40px;
+	background: white;
+	float: left;
+	margin-top: 2px;
+}
+.input input{
+	width: 210px;
+	height: 40px;
+	margin-left: 12px;
+	border: none;
+	outline: none;
+	color: #ef7800;
+}
+.littleLogo{
+	width: 19px;
+	height: 24px;
+	background-image: url(../img/19.png);
+	float: right;
+	margin-right: 17px;
+	margin-top: 10px;
+}
+/*map结束*/
+/*汉堡王怎么练成开始*/
+.timeBox{
+	width: 100%;
+	height: 483px;
+	background-image: url(../img/ourStory-bg.jpg);
+}
+.time{
+	width: 100%;
+	height: 483px;
+	position: relative;
+}
+.timeLogo{
+	width: 85px;
+	height: 89px;
+	background-image: url(../img/20.png);
+	position: absolute;
+	top: 70px;
+	left: 50%;
+	margin-left: -43px;
+}
+.p-title-1{
+	height: 56px;
+	color: #fff;
+    font: bold 35px "microsoft yahei";
+    position: absolute;
+    top: 175px;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+.p-title-2{
+	width: 109px;
+	height: 18px;
+	position: absolute;
+	top: 225px;
+	left: 50%;
+    transform: translate(-50%,0);
+}
+.bigBg:hover{
+	
+}
+.pp1{
+	position: absolute;
+	top: 280px;
+	left: 50%;
+    transform: translate(-50%,0);
+    color: #fff;
+    font: normal 12px "microsoft yahei";
+}
+.pp2{
+	top: 300px;
+}
+.check{
+	width: 192px;
+	height: 51px;
+	position: absolute;
+	bottom: 55px;
+	left: 50%;
+    transform: translate(-50%,0);
+}
+.checkBox{
+	width: 192px;
+	height: 51px;
+}
+.checkBox:hover{
+	transform-origin: center;
+	-moz-transform-origin: center;
+	-ms-transform-origin: center;
+	-webkit-transform-origin: center;
+	transform: rotateY(360deg);
+	-moz-transform: rotateY(360deg);
+	-ms-transform: rotateY(360deg);
+	-webkit-transform: rotateY(360deg);
+	transition: all 2s;
+}
+.checkBox p{
+	position: absolute;
+	top: 0px;
+	left: 60px;
+	color: #fff;
+    font: bold 18px/51px "microsoft yahei";
+}
+.checkBox:hover p{
+	color: black;
+}
+/*汉堡王怎么练成结束*/
+/*现点现做开始*/
+.doBox{
+	width: 100%;
+	height: 483px;
+	background-image: url(../img/hb.png);
+}
+.do{
+	width: 100%;
+	height: 483px;
+	position: relative;
+}
+.do-p-1{
+	color: #fff;
+    font: bold 35px "microsoft yahei";
+    position: absolute;
+    top: 170px;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+.do-p-2{
+	color: #fff;
+    font: bold 23px "microsoft yahei";
+    top: 220px;
+}
+.explore{
+	width: 194px;
+	height: 51px;
+	position: absolute;
+    top: 310px;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+.exploreImg:hover{
+	transform-origin: center;
+	-moz-transform-origin: center;
+	-ms-transform-origin: center;
+	-webkit-transform-origin: center;
+	transform: rotateY(360deg);
+	-moz-transform: rotateY(360deg);
+	-ms-transform: rotateY(360deg);
+	-webkit-transform: rotateY(360deg);
+	transition: all 2s;
+}
+/*现点现做结束*/
+/*classmate开始*/
+.classmate{
+	width: 100%;
+	height: 270px;
+	margin: 0 auto;
+	background: #2C2C2C;
+}
+.correct img{
+	width: 230px;
+	height: 250px;
+}
+@-webkit-keyframes flipOutYtest {
+  from {
+    -webkit-transform: perspective(1400px);
+    transform: perspective(1400px);
+  }
+
+  40% {
+    -webkit-transform: perspective(1400px) rotate3d(0, 1, 0, 60deg);
+    transform: perspective(1400px) rotate3d(0, 1, 0, 60deg);
+    opacity: 1;
+  }
+
+  50% {
+    -webkit-transform: perspective(1400px) rotate3d(0, 1, 0, 90deg);
+    transform: perspective(1400px) rotate3d(0, 1, 0, 90deg);
+    opacity: 0;
+  }
+
+  to {
+    -webkit-transform: perspective(1400px) rotate3d(0, 1, 0, 180deg);
+    transform: perspective(1400px) rotate3d(0, 1, 0, 180deg);
+    opacity: 0;
+  }
+}
+
+.test{
+  -webkit-animation: flipOutYtest 0.75s linear;
+  animation: flipOutYtest 0.75s linear;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+
+@-webkit-keyframes flipInYtest {
+  from {
+    -webkit-transform: perspective(1400px) rotate3d(0, 1, 0, -180deg);
+    transform: perspective(1400px) rotate3d(0, 1, 0, -180deg);
+    opacity: 0;
+  }
+
+  50% {
+    -webkit-transform: perspective(1400px) rotate3d(0, 1, 0, -90deg);
+    transform: perspective(1400px) rotate3d(0, 1, 0, -90deg);
+    opacity: 0;
+  }
+
+  60% {
+    -webkit-transform: perspective(1400px) rotate3d(0, 1, 0, -60deg);
+    transform: perspective(1400px) rotate3d(0, 1, 0, -60deg);
+    opacity: 1;
+  }
+
+  to {
+    -webkit-transform: perspective(1400px);
+    transform: perspective(1400px);
+    opacity: 1;
+  }
+}
+
+.test2{
+  -webkit-animation: flipInYtest 0.75s linear;
+  animation: flipInYtest 0.75s linear;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+
+
+.well{ 
+	width: 1000px; 
+	height: 270px;
+	margin-left: auto; 
+	margin-right: auto; 
+	height: auto; 
+}
+
+.well .well-item{ 
+	position: relative; 
+	float: left; 
+	width: 23%; 
+	min-height: 250px; 
+	margin: 1%; 
+}
+.well .well-item img{
+  width: 100%;
+  min-height: 250px;
+}
+.correct{
+  position: absolute;
+  width: 100%;
+}
+.opposite{
+  height: 250px;
+  width: 100%;
+}
+.opposite div{
+  height: 250px;
+  width: 100%;
+}
+.opposite-content{
+  display: table;
+  width: 100%;
+  height: 250px;
+  background-color: #D95E22;
+}
+.opposite-content-text{ 
+	display: table-cell; 
+	vertical-align: middle; 
+	text-align: center; 
+	color: white; 
+	font-size: 24px; 
+}
+/*classmate结束*/
+/*圣诞树插件开始*/
+#christmasTree{
+	width: 150px;
+	height: 150px;
+	position: fixed;
+	top: 50%;
+	right: 0;
+}
+.treeFont{
+	width: 150px;
+	height: 80px;
+	position: fixed;
+	top: 69%;
+	right: 0;
+	color: #EF7800;
+	font-weight: bold;
+	font-size: 25px;
+	display: none;
+	text-align: center;
+}
+/*圣诞树插件结束*/
